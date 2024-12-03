@@ -1,0 +1,27 @@
+header{
+    padding-block: 25px;
+    margin-bottom: 50px;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 10%;
+    flex-wrap: wrap;
+}
+
+.boolean-logo{
+    height: 30px;
+}
+
+
+.card img{
+    display: flex;
+    height: 700px;
+    margin: 20px;
+}
+
+.padding-bottom{
+    padding-bottom: 50px;
+}

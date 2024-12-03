@@ -22,6 +22,14 @@ header{
     height: 30px;
 }
 
+
+
+.icon-footer{
+    height: 20px;
+    fill: white;
+    padding-inline: 10px;
+}
+
 .gap-card{
     justify-content: space-between;
     gap: 30px;
@@ -44,6 +52,11 @@ header{
     right: 0px;
     line-height: 0;
 }
+
+.icon_heart:hover{
+    fill: red;
+}
+
 
 .bedge{
     position: absolute;
@@ -72,6 +85,7 @@ footer{
 
 a{
     color: white;
+    padding-inline: 10px;
 }
 
 .price{

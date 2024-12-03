@@ -1,3 +1,7 @@
+html{
+    font-family: sans-serif;
+}
+
 header{
     margin-bottom: 50px;
     background-color: coral;
@@ -24,15 +28,21 @@ header{
     
 }
 
+.img{
+    height: 900px;
+}
 
 .img-container{
     position:relative;
 }
 
 .icon_heart{
+    background-color: white;
+    padding: 15px;
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 0px;
+    line-height: 0;
 }
 
 .bedge{
@@ -46,4 +56,30 @@ footer{
     background-color: rgb(49, 49, 49);
     padding-block: 30px;
     
+}
+
+.red{
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+a{
+    color: white;
+}
+
+.price{
+    
+    text-decoration: line-through;
+}
+
+.discount{
+    color: red;
+    font-weight: bold;
 }
